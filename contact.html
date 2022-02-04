@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <script src="toggle-nav.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="" class="logo">
+        <img src="images/hamburger-menu.png" alt="" class="hamburger-menu" onclick="toggleNav()">
+        <nav class="toggle-nav">
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="center-contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Got Questions?</h3>
+                    <h3>Call Us</h3>
+                    <p>608 - 808 - 8452</p>
+                    <p>920 - 594 - 1429</p>
+                    <h3>Email</h3>
+                    <p>bbteaplace@boba.com</p>
+                    <h3>Location</h3>
+                    <p>1057 University Avenue</p>
+                    <p>Madison, WI 53718</p>
+                </div>
+                <form action="contact.html">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number (Optional)">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="7" placeholder="Message" required></textarea>
+                    <input type="submit" id="submit" class="submit-button">
+                </form>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
